@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\ApiLb3.props" />
+</Project>

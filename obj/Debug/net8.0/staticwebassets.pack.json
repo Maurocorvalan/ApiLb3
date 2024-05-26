@@ -1,0 +1,53 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\mauro\\OneDrive\\Desktop\\ApiLb3\\wwwroot\\Uploads\\68b5c16b-4ec3-43ec-8a96-871e80273aa4.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\68b5c16b-4ec3-43ec-8a96-871e80273aa4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\mauro\\OneDrive\\Desktop\\ApiLb3\\wwwroot\\Uploads\\avatar_1.png",
+      "PackagePath": "staticwebassets\\Uploads\\avatar_1.png"
+    },
+    {
+      "Id": "C:\\Users\\mauro\\OneDrive\\Desktop\\ApiLb3\\wwwroot\\Uploads\\avatar_11.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\avatar_11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\mauro\\OneDrive\\Desktop\\ApiLb3\\wwwroot\\Uploads\\avatar_2.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\avatar_2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\mauro\\OneDrive\\Desktop\\ApiLb3\\wwwroot\\Uploads\\avatar_4.jpeg",
+      "PackagePath": "staticwebassets\\Uploads\\avatar_4.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\mauro\\OneDrive\\Desktop\\ApiLb3\\wwwroot\\Uploads\\avatar_4.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\avatar_4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\mauro\\OneDrive\\Desktop\\ApiLb3\\wwwroot\\Uploads\\avatar_4.png",
+      "PackagePath": "staticwebassets\\Uploads\\avatar_4.png"
+    },
+    {
+      "Id": "C:\\Users\\mauro\\OneDrive\\Desktop\\ApiLb3\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.ApiLb3.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.ApiLb3.props",
+      "PackagePath": "build\\ApiLb3.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.ApiLb3.props",
+      "PackagePath": "buildMultiTargeting\\ApiLb3.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.ApiLb3.props",
+      "PackagePath": "buildTransitive\\ApiLb3.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
