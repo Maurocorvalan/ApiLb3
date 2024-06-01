@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ApiLb3")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ea2893359351f0b8e2f3c9e31a6a8f3bf8a8e77d")]
 [assembly: System.Reflection.AssemblyProductAttribute("ApiLb3")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ApiLb3")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

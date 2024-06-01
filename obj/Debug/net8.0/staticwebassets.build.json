@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "owloUipBYKoAAalGu9tghRWprfmWOEVkUOcPEa7DGf8=",
+  "Hash": "VJqZ2y2nYXMQo+bDF3w/qMqrLx433j6XeXxvOJ4lAGo=",
   "Source": "ApiLb3",
   "BasePath": "_content/ApiLb3",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "ApiLb3\\wwwroot",
       "Source": "ApiLb3",
-      "ContentRoot": "C:\\Users\\mauro\\OneDrive\\Desktop\\ApiLb3\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mauro\\OneDrive\\Desktop\\ApiLb3\\ApiLb3\\wwwroot\\",
       "BasePath": "_content/ApiLb3",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\mauro\\OneDrive\\Desktop\\ApiLb3\\wwwroot\\favicon.ico",
+      "Identity": "C:\\Users\\mauro\\OneDrive\\Desktop\\ApiLb3\\ApiLb3\\wwwroot\\favicon.ico",
       "SourceId": "ApiLb3",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mauro\\OneDrive\\Desktop\\ApiLb3\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mauro\\OneDrive\\Desktop\\ApiLb3\\ApiLb3\\wwwroot\\",
       "BasePath": "_content/ApiLb3",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -36,10 +36,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\mauro\\OneDrive\\Desktop\\ApiLb3\\wwwroot\\Uploads\\68b5c16b-4ec3-43ec-8a96-871e80273aa4.jpg",
+      "Identity": "C:\\Users\\mauro\\OneDrive\\Desktop\\ApiLb3\\ApiLb3\\wwwroot\\Uploads\\68b5c16b-4ec3-43ec-8a96-871e80273aa4.jpg",
       "SourceId": "ApiLb3",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mauro\\OneDrive\\Desktop\\ApiLb3\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mauro\\OneDrive\\Desktop\\ApiLb3\\ApiLb3\\wwwroot\\",
       "BasePath": "_content/ApiLb3",
       "RelativePath": "Uploads/68b5c16b-4ec3-43ec-8a96-871e80273aa4.jpg",
       "AssetKind": "All",
@@ -55,10 +55,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\68b5c16b-4ec3-43ec-8a96-871e80273aa4.jpg"
     },
     {
-      "Identity": "C:\\Users\\mauro\\OneDrive\\Desktop\\ApiLb3\\wwwroot\\Uploads\\avatar_1.png",
+      "Identity": "C:\\Users\\mauro\\OneDrive\\Desktop\\ApiLb3\\ApiLb3\\wwwroot\\Uploads\\avatar_1.png",
       "SourceId": "ApiLb3",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mauro\\OneDrive\\Desktop\\ApiLb3\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mauro\\OneDrive\\Desktop\\ApiLb3\\ApiLb3\\wwwroot\\",
       "BasePath": "_content/ApiLb3",
       "RelativePath": "Uploads/avatar_1.png",
       "AssetKind": "All",
@@ -74,10 +74,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\avatar_1.png"
     },
     {
-      "Identity": "C:\\Users\\mauro\\OneDrive\\Desktop\\ApiLb3\\wwwroot\\Uploads\\avatar_11.jpg",
+      "Identity": "C:\\Users\\mauro\\OneDrive\\Desktop\\ApiLb3\\ApiLb3\\wwwroot\\Uploads\\avatar_11.jpg",
       "SourceId": "ApiLb3",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mauro\\OneDrive\\Desktop\\ApiLb3\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mauro\\OneDrive\\Desktop\\ApiLb3\\ApiLb3\\wwwroot\\",
       "BasePath": "_content/ApiLb3",
       "RelativePath": "Uploads/avatar_11.jpg",
       "AssetKind": "All",
@@ -93,10 +93,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\avatar_11.jpg"
     },
     {
-      "Identity": "C:\\Users\\mauro\\OneDrive\\Desktop\\ApiLb3\\wwwroot\\Uploads\\avatar_2.jpg",
+      "Identity": "C:\\Users\\mauro\\OneDrive\\Desktop\\ApiLb3\\ApiLb3\\wwwroot\\Uploads\\avatar_2.jpg",
       "SourceId": "ApiLb3",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mauro\\OneDrive\\Desktop\\ApiLb3\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mauro\\OneDrive\\Desktop\\ApiLb3\\ApiLb3\\wwwroot\\",
       "BasePath": "_content/ApiLb3",
       "RelativePath": "Uploads/avatar_2.jpg",
       "AssetKind": "All",
@@ -112,10 +112,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\avatar_2.jpg"
     },
     {
-      "Identity": "C:\\Users\\mauro\\OneDrive\\Desktop\\ApiLb3\\wwwroot\\Uploads\\avatar_4.jpeg",
+      "Identity": "C:\\Users\\mauro\\OneDrive\\Desktop\\ApiLb3\\ApiLb3\\wwwroot\\Uploads\\avatar_4.jpeg",
       "SourceId": "ApiLb3",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mauro\\OneDrive\\Desktop\\ApiLb3\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mauro\\OneDrive\\Desktop\\ApiLb3\\ApiLb3\\wwwroot\\",
       "BasePath": "_content/ApiLb3",
       "RelativePath": "Uploads/avatar_4.jpeg",
       "AssetKind": "All",
@@ -131,10 +131,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\avatar_4.jpeg"
     },
     {
-      "Identity": "C:\\Users\\mauro\\OneDrive\\Desktop\\ApiLb3\\wwwroot\\Uploads\\avatar_4.jpg",
+      "Identity": "C:\\Users\\mauro\\OneDrive\\Desktop\\ApiLb3\\ApiLb3\\wwwroot\\Uploads\\avatar_4.jpg",
       "SourceId": "ApiLb3",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mauro\\OneDrive\\Desktop\\ApiLb3\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mauro\\OneDrive\\Desktop\\ApiLb3\\ApiLb3\\wwwroot\\",
       "BasePath": "_content/ApiLb3",
       "RelativePath": "Uploads/avatar_4.jpg",
       "AssetKind": "All",
@@ -150,10 +150,10 @@
       "OriginalItemSpec": "wwwroot\\Uploads\\avatar_4.jpg"
     },
     {
-      "Identity": "C:\\Users\\mauro\\OneDrive\\Desktop\\ApiLb3\\wwwroot\\Uploads\\avatar_4.png",
+      "Identity": "C:\\Users\\mauro\\OneDrive\\Desktop\\ApiLb3\\ApiLb3\\wwwroot\\Uploads\\avatar_4.png",
       "SourceId": "ApiLb3",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mauro\\OneDrive\\Desktop\\ApiLb3\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\mauro\\OneDrive\\Desktop\\ApiLb3\\ApiLb3\\wwwroot\\",
       "BasePath": "_content/ApiLb3",
       "RelativePath": "Uploads/avatar_4.png",
       "AssetKind": "All",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "BsZ1FXoOwsulObeafUTqypTYuJO41EwyUNjOM5w2XAQWkBDAZDKBYsg+deOFPl4NNRW91oYfL/Jm3myGUz34yw==",
+  "dgSpecHash": "TsmdPHy09e4K1VamTZZQHv2G83r0C7Z4g4ukW+c53d9IuU8SqfjrwfFmn6gkEH7wCqQKK5ENGW0HUCo5W2i6QQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\mauro\\OneDrive\\Desktop\\ApiLb3\\ApiLb3.csproj",
+  "projectFilePath": "C:\\Users\\mauro\\OneDrive\\Desktop\\ApiLb3\\ApiLb3\\ApiLb3.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mauro\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\mauro\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

@@ -319,11 +319,19 @@ namespace ApiLb3.Controllers
                     original.Nombre = entidad.Nombre ?? original.Nombre;
                     original.Apellido = entidad.Apellido ?? original.Apellido;
                     original.Dni = entidad.Dni ?? original.Dni;
-                    original.Telefono = entidad.Telefono ?? original.Telefono;
                     original.Email = entidad.Email ?? original.Email;
+                    original.Telefono = entidad.Telefono ?? original.Telefono;
 
-                    // No adjuntar la entidad al contexto, solo actualizar y guardar los cambios en la entidad rastreada original
+                    // Guardar los cambios en la entidad rastreada original
                     await contexto.SaveChangesAsync();
+
+                    // Verificar los valores actualizados
+                    Console.WriteLine($"Nombre: {original.Nombre}");
+                    Console.WriteLine($"Apellido: {original.Apellido}");
+                    Console.WriteLine($"Dni: {original.Dni}");
+                    Console.WriteLine($"Telefono: {original.Telefono}");
+                    Console.WriteLine($"Email: {original.Email}");
+
                     return Ok(original);
                 }
                 return BadRequest();
@@ -336,65 +344,6 @@ namespace ApiLb3.Controllers
 
 
 
-        // GET: api/Propietarios/test
-        [HttpGet("test")]
-        [AllowAnonymous]
-        public IActionResult Test()
-        {
-            try
-            {
-                return Ok("anduvo");
-            }
-            catch (Exception ex)
-            {
-                return BadRequest(ex.Message);
-            }
-        }
-
-        // GET: api/Propietarios/test/5
-        [HttpGet("test/{codigo}")]
-        [AllowAnonymous]
-        public IActionResult Code(int codigo)
-        {
-            try
-            {
-                //StatusCodes.Status418ImATeapot //constantes con códigos
-
-                return StatusCode(codigo, new { Mensaje = "Anduvo", Error = false });
-
-            }
-            catch (Exception ex)
-            {
-                return BadRequest(ex.Message);
-            }
-        }
-        // GET api/<controller>/5
-
-        [HttpGet("GetProtectedResource")]
-        [Authorize] // Requires valid JWT token for access
-        public IActionResult GetProtectedResource()
-        {
-            // Get the current user from HttpContext
-            var user = HttpContext.User;
-
-
-            var userIdClaim = user.FindFirstValue(ClaimTypes.NameIdentifier);
-
-
-
-            // Parse the user ID (assuming it's a string)
-            int Id;
-            if (int.TryParse(userIdClaim, out Id))
-            {
-
-                return Ok($"User ID: {Id}");
-
-            }
-            else
-            {
-                return BadRequest("Invalid user ID format in token");
-            }
-        }
 
         private string HashPassword(string password)
         {
