@@ -42,6 +42,7 @@ namespace ApiLb3.Controllers
         }
 
         [HttpGet]
+        [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
         public async Task<IActionResult> Get()
         {
             try
@@ -71,9 +72,9 @@ namespace ApiLb3.Controllers
             }
         }
 
-        
-        //get para traer inmueble si posee contrato vigente
 
+        //get para traer inmueble si posee contrato vigente
+        [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
         [HttpGet("GetContratoVigente")]
         public async Task<IActionResult> GetContratoVigente()
         {
@@ -120,7 +121,7 @@ namespace ApiLb3.Controllers
             }
         }
 
-
+        [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
         [HttpPost("cargar")]
         public async Task<IActionResult> Cargar([FromForm] IFormFile imagen, [FromForm] string inmueble)
         {
@@ -182,7 +183,7 @@ namespace ApiLb3.Controllers
         }
 
 
-
+        [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
         [HttpDelete("Delete/{id}")]
 
         public async Task<IActionResult> Delete(int id)
@@ -208,7 +209,7 @@ namespace ApiLb3.Controllers
 
 
 
-
+        [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
         [HttpPut("actualizar/{id}")]
         public async Task<IActionResult> Put(int id, [FromBody] Inmueble entidad)
         {
@@ -240,6 +241,8 @@ namespace ApiLb3.Controllers
             }
         }
 
+
+        [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
         //solo actualiza el estado de disponibilidad.
         [HttpPut("actualizar")]
         public async Task<IActionResult> Put([FromBody] Inmueble entidad)

@@ -23,14 +23,14 @@ namespace Inmobiliaria.Models
         public int IdPropietario { get; set; }
         public Propietario? Duenio { get; set; }
 
-        [NotMapped]
-        public byte[]? imagenfile { get; set; }
+        //[NotMapped]
+      //  public byte[]? imagenfile { get; set; }
 
-        [NotMapped]
-        public byte[]? pumba { get; set; }
+//        [NotMapped]
+      //  public byte[]? pumba { get; set; }
 
-        [NotMapped]
-        public string? ImagenBase64 { get; set; }
+       // [NotMapped]
+        //public string? ImagenBase64 { get; set; }
 
         [NotMapped]
         public bool TieneContratoVigente { get; set; }  // Propiedad agregada

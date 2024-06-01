@@ -34,6 +34,7 @@ namespace ApiLb3.Controllers
         }
 
         [HttpGet("contrato/{id}")]
+        [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
         public async Task<IActionResult> GetPagosPorContrato(int id)
         {
             try

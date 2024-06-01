@@ -123,10 +123,9 @@ namespace ApiLb3.Controllers
                 message.Body = new TextPart("html")
                 {
                     Text = $@"<p>Hola {entidad.Nombre}:</p>
-                              <p>Hemos recibido una solicitud de restablecimiento de contraseña de tu cuenta.</p>
-                              <p>Haz clic en el botón que aparece a continuación para cambiar tu contraseña.</p>
-                              <p>Ten en cuenta que este enlace es válido solo durante 24 horas. Una vez transcurrido el plazo, deberás volver a solicitar el restablecimiento de la contraseña.</p>
-                              <p> {enlace}</p>"
+                <p>Hemos recibido una solicitud para restablecer la contraseña de tu cuenta.</p>
+                <p>Tu nueva contraseña es: <strong>{enlace}</strong></p>
+                <p>Por razones de seguridad, te recomendamos cambiar esta contraseña después de iniciar sesión.</p>"
                 };
 
                 using (var client = new MailKit.Net.Smtp.SmtpClient())
@@ -169,7 +168,7 @@ namespace ApiLb3.Controllers
 
 
         //cambiar contraseña android 
-        // PUT api/<controller>/changePassword
+        [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
         [HttpPut("changePassword")]
         public async Task<IActionResult> ChangePassword([FromForm] string currentPassword, [FromForm] string newPassword)
         {
@@ -290,6 +289,7 @@ namespace ApiLb3.Controllers
 
 
         // PUT api/<controller>/actualizar
+        [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
         [HttpPut("actualizar")]
         public async Task<IActionResult> Put([FromBody] Propietario entidad)
         {

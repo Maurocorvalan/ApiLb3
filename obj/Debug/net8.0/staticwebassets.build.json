@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "VJqZ2y2nYXMQo+bDF3w/qMqrLx433j6XeXxvOJ4lAGo=",
+  "Hash": "Ye3AlpgsHGBIwexNMEKEEEIGGPMZ//MALMBR+f9Ft1o=",
   "Source": "ApiLb3",
   "BasePath": "_content/ApiLb3",
   "Mode": "Default",
@@ -167,6 +167,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Uploads\\avatar_4.png"
+    },
+    {
+      "Identity": "C:\\Users\\mauro\\OneDrive\\Desktop\\ApiLb3\\ApiLb3\\wwwroot\\Uploads\\fb5326a9-308c-4a51-aba1-45810bcfe688.jpg",
+      "SourceId": "ApiLb3",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\mauro\\OneDrive\\Desktop\\ApiLb3\\ApiLb3\\wwwroot\\",
+      "BasePath": "_content/ApiLb3",
+      "RelativePath": "Uploads/fb5326a9-308c-4a51-aba1-45810bcfe688.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Uploads\\fb5326a9-308c-4a51-aba1-45810bcfe688.jpg"
     }
   ]
 }

@@ -34,6 +34,7 @@ namespace ApiLb3.Controllers
         }
 
         [HttpGet]
+        [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
         public async Task<IActionResult> GetContratosPropietario()
         {
             try
@@ -78,7 +79,7 @@ namespace ApiLb3.Controllers
                 return BadRequest($"Error al obtener los contratos: {ex.Message}");
             }
         }
-
+        [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
         [HttpGet("inmueble/{id}")]
         public async Task<IActionResult> GetContratoPorInmueble(int id)
         {
