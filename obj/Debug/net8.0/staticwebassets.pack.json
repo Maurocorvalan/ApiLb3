@@ -1,8 +1,16 @@
 {
   "Files": [
     {
+      "Id": "C:\\Users\\mauro\\OneDrive\\Desktop\\ApiLb3\\ApiLb3\\wwwroot\\Uploads\\37c551f2-93fa-4a53-9b6b-faef4fe5fc95.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\37c551f2-93fa-4a53-9b6b-faef4fe5fc95.jpg"
+    },
+    {
       "Id": "C:\\Users\\mauro\\OneDrive\\Desktop\\ApiLb3\\ApiLb3\\wwwroot\\Uploads\\68b5c16b-4ec3-43ec-8a96-871e80273aa4.jpg",
       "PackagePath": "staticwebassets\\Uploads\\68b5c16b-4ec3-43ec-8a96-871e80273aa4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\mauro\\OneDrive\\Desktop\\ApiLb3\\ApiLb3\\wwwroot\\Uploads\\ad5ee0af-fa48-4f8f-b62f-580d3eae95fb.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\ad5ee0af-fa48-4f8f-b62f-580d3eae95fb.jpg"
     },
     {
       "Id": "C:\\Users\\mauro\\OneDrive\\Desktop\\ApiLb3\\ApiLb3\\wwwroot\\Uploads\\avatar_1.png",
@@ -27,6 +35,10 @@
     {
       "Id": "C:\\Users\\mauro\\OneDrive\\Desktop\\ApiLb3\\ApiLb3\\wwwroot\\Uploads\\avatar_4.png",
       "PackagePath": "staticwebassets\\Uploads\\avatar_4.png"
+    },
+    {
+      "Id": "C:\\Users\\mauro\\OneDrive\\Desktop\\ApiLb3\\ApiLb3\\wwwroot\\Uploads\\e6f39a6a-b2ed-4f59-8b6c-f8ddb73f4087.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\e6f39a6a-b2ed-4f59-8b6c-f8ddb73f4087.jpg"
     },
     {
       "Id": "C:\\Users\\mauro\\OneDrive\\Desktop\\ApiLb3\\ApiLb3\\wwwroot\\Uploads\\fb5326a9-308c-4a51-aba1-45810bcfe688.jpg",
