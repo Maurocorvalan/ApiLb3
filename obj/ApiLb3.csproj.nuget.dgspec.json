@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mauro\\OneDrive\\Desktop\\ApiLb3\\ApiLb3\\ApiLb3.csproj": {}
+    "C:\\Users\\corva\\OneDrive\\Escritorio\\Mauro\\ApiLb3\\ApiLb3.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mauro\\OneDrive\\Desktop\\ApiLb3\\ApiLb3\\ApiLb3.csproj": {
+    "C:\\Users\\corva\\OneDrive\\Escritorio\\Mauro\\ApiLb3\\ApiLb3.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mauro\\OneDrive\\Desktop\\ApiLb3\\ApiLb3\\ApiLb3.csproj",
+        "projectUniqueName": "C:\\Users\\corva\\OneDrive\\Escritorio\\Mauro\\ApiLb3\\ApiLb3.csproj",
         "projectName": "ApiLb3",
-        "projectPath": "C:\\Users\\mauro\\OneDrive\\Desktop\\ApiLb3\\ApiLb3\\ApiLb3.csproj",
-        "packagesPath": "C:\\Users\\mauro\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mauro\\OneDrive\\Desktop\\ApiLb3\\ApiLb3\\obj\\",
+        "projectPath": "C:\\Users\\corva\\OneDrive\\Escritorio\\Mauro\\ApiLb3\\ApiLb3.csproj",
+        "packagesPath": "C:\\Users\\corva\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\corva\\OneDrive\\Escritorio\\Mauro\\ApiLb3\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\mauro\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\corva\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -103,7 +103,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.404/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
